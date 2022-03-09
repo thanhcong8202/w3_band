@@ -1,0 +1,78 @@
+/*  pc */
+
+@media (min-width: 1024px) {}
+
+
+/* table and mobile */
+
+@media (min-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    .socials-list {
+        font-size: 48px;
+    }
+    .socials-list a {
+        margin: 0 8px;
+    }
+}
+
+
+/* table */
+
+@media(min-width: 740px) and (max-width: 1023px) {}
+
+
+/* moblie */
+
+@media(max-width: 739px) {
+    .s-col-full,
+    .s-width-full {
+        width: 100%;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav>li>a {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #content .menber-list {
+        width: 100%;
+    }
+    #content .menber-img {
+        margin-bottom: 32px;
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+}
